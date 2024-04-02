@@ -1,0 +1,14 @@
+@media only screen and (max-width: 334px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .content-navbar,
+  .content-navbar a {
+    display: none;
+  }
+  .pembatas {
+      margin-top: -200px !important;
+  }
+}
