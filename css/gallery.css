@@ -1,0 +1,29 @@
+.slider{
+    display: grid;
+    margin-top: 100px;
+    place-items: center ;
+    width: 100vw;
+    position: relative;
+}
+
+    #slide{
+    width: 400px;
+}
+
+.slider span{
+    font-size: 30px;
+    cursor: pointer;
+}
+    
+#right{
+    position: absolute;
+    top: 200px;
+    right: 300px;
+}
+
+#left{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
